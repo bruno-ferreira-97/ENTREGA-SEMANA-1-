@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ENTREGA_1</title>
+    <h1>ENTREGA_1</h1>
+</head>
+<body>
+	<script>
+		var nome = "Bruno";
+		var telefone = " 15-997507811";
+		var profissao = "estudante";
+		var salario = "nao recebe nada"
+
+		var profissional = nome + " é um " + profissao + " precisando de estagio pois, " + salario + telefone;
+
+		document.write(profissional);
+        document.write("<br>");
+                          
+        document.write("*****************************************************************");
+        document.write("<br>");
+        
+        var a = 4;
+        var b = 5;
+
+        document.write("valor de a é " + a  + " valor de b é " + b);
+        document.write("<br>");
+
+        var x = a;
+        a = b;
+        b = x;
+
+        document.write("valor de a é: " + a);
+        document.write("<br>")
+        document.write("Valor de b é: " + b);
+        document.write("<br>");
+
+        var a = 4;
+        var b = 5;
+
+        document.write("A vale: " + a );
+        document.write("<br>");
+        document.write("B vale: " + b );
+        document.write("<br>");
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+
+        document.write("A passou ser: " + a);
+        document.write("<br>");
+        document.write("B passou ser: " + b);
+        document.write("<br>");      
+
+        document.write("**************************************");
+
+        //Operações aritméticas
+       
+        let inteiro = 7;
+        let decimal = 3.5;
+
+        let adicao = inteiro + decimal;
+        console.log("Adicao:", adicao); 
+
+        let subtracao = inteiro - decimal;
+        console.log("Subtracao:", subtracao); 
+
+        let potenciacao = (adicao - 0.5) ** 2;
+        console.log("Potenciacao:", potenciacao); 
+
+        let expressao1 = inteiro - 4 / 2 / 2;
+        console.log("Expressao 1:", expressao1); 
+
+        let expressao2 = (inteiro - 4) / 2;
+        console.log("Expressao 2:", expressao2); 
+
+        let expressao3 = 2 + subtracao * 2;
+        console.log("Expressao 3:", expressao3); 
+
+        let expressao4 = (2 + subtracao) * 2;
+        console.log("Expressao 4:", expressao4);
+
+
+        let modulo1 = potenciacao % 2; 
+        console.log("Modulo 1:", modulo1);
+
+        let modulo2 = (inteiro - 1) % 2;  
+        console.log("Modulo 2:", modulo2);
+
+        document.write("<br>");
+
+
+
+        //idade votacao
+
+        let idade = parseInt(prompt("Por favor digite sua idade"));
+
+        if (idade >= 16 && idade <= 18){
+            document.write("Voto náo obrigatorio, 16 ao 17 anos.");
+        }
+        
+        else if (idade > 70) {
+            document.write("Acima de 70 anos, voto opicional.");
+        }
+
+        else if (idade >= 18 && idade <= 70){
+            document.write("Voto obrigatorio!!");
+        }
+        document.write("<br>");
+        
+        document.write("**************************************************");
+        document.write("<br>");
+
+	</script>
+</body>
+</html>
